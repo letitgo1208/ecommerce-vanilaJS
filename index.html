@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<title>Ecommerce Checkout Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<section>
+		<div class="back-container">
+			<div class="checkout-container">
+				<div class="main-form-container">
+					<div class="main-title-container">
+						<h3>Shopping cart</h3>
+					</div>
+					<div class="main-table-container">
+						<div class="table-container">
+							<div class="item-product item-header"><span>Product Details</span></div>
+							<div class="item-quality item-header"><span>Quality</span></div>
+							<div class="item-price item-header"><span>Price</span></div>
+							<div class="item-total item-header"><span>Total</span></div>
+						</div>
+						<div id="products_content"></div>
+					</div>
+				</div>
+				<div class="check-form-container">
+					<div class="main-title-container">
+						<h3>Order Summary</h3>
+					</div>
+					<div class="checkout-total-container">
+						<div class="item-count">
+							<span id="item-total-count"></span>
+							<span> items</span>
+						</div>
+						<div class="item-total-price">
+							<span id="item-total-price"></span>
+							<span> €</span>
+						</div>
+					</div>
+					<div class="discount-container">
+						<span class="title">Discounts</span>
+						<div id="discount-container"></div>
+					</div>
+					<div class="checkout-submit-container">
+						<div class="total-price-container">
+							<span>Total Cost</span>
+							<span class="total-checkout-price"><span id="total-checkout-price">0</span> €</span>
+						</div>
+						<div class="checkout-btn-container">
+							<button>Checkout</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+</body>
+<script type="text/javascript" src="assets/js/checkout-form.js"></script>
+</html>
